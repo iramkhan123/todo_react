@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  
+  --ff-sans: "Josefin Sans", sans-serif;
+  --base-font: 1.6rem;
+  --fw-normal: 400;
+  --fw-bold: 700;
+  --img-bg: url("./asset/bg-desktop-dark.jpg");
+  --clr-primary: hsl(0, 0%, 98%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-page-bg: hsl(235, 21%, 11%);
+  --clr-card-bg: hsl(235, 24%, 19%);
+  --clr-blue: hsl(220, 98%, 61%);
+  --clr-green: hsl(192, 100%, 67%);
+  --clr-pink: hsl(280, 87%, 65%);
+  --clr-gb-1: hsl(236, 33%, 92%);
+  --clr-gb-2: hsl(234, 39%, 75%);
+  --clr-gb-3: hsl(234, 11%, 52%);
+  --clr-gb-4: hsl(237, 12%, 36%);
+  --clr-gb-5: hsl(233, 14%, 35%);
+  --clr-gb-6: hsl(235, 19%, 24%);
+  --clr-box-shadow: hsl(0, 0%, 0%, 0.1);
+}
+
+
+/* CHECKBOX CONTAINER AND FIELD */
+.cont
+{
+  background-color: #282c34;
+  height:5rem;
+  font-size:larger;
+  color:gray;
+}
+
+.overall{
+  background-color: gainsboro;
+}
+.new-entry{
+  display: block;
+  box-sizing: border-box;
+  border-color: #282c34;
+  height: 10rem;
+  width: 95%;
+  padding: 2rem 3rem 3rem;
+  border-style: solid;
+  margin: 3rem 3rem 4rem 2rem;
+}
+.back{
+  display: block;
+  height:4rem;
+  width:12rem;
+  border-color: #282c34;
+  
+
+}
+.btn{
+  background-color: #282c34;
+  color: gray;
+  height: 2rem;
+    width: 8rem;
+position: absolute;
+right: 3rem;
+
+
+
+}
+
+.input-container{
+  width:5rem;
+
+}
+.add-btn{
+  background-color: #282c34;
+    color: gray;
+    position: absolute;
+    right: 3rem;
+    top: 8rem;
+    height: 2rem;
+    width: 8rem;
+}
+.inp{
+  height: 3rem;
+    width: 50rem;
+    margin: 2rem;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
